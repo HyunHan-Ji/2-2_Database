@@ -10,7 +10,7 @@ public class Ex3 {
 		Statement stmt = null;
 
 		try {
-			con = DriverManager.getConnection(url, "20165164", "gusgks12#$");
+			con = DriverManager.getConnection(url, "20165164", "123123");
 			con.setCatalog("Northwind");
 
 			System.out.println("Connected to DB...");

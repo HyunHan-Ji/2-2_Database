@@ -14,7 +14,7 @@ public class Ex4 {
 
 	public Ex4() {
 		try {
-			con = DriverManager.getConnection("jdbc:inetdae7://210.115.229.77:2433", "20165164", "gusgks12#$");
+			con = DriverManager.getConnection("jdbc:inetdae7://210.115.229.77:2433", "20165164", "123123");
 			con.setCatalog("20165164");
 			System.out.println("Connected");
 		} catch (SQLException se) {

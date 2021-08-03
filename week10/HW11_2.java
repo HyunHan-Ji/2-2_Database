@@ -17,7 +17,7 @@ public class HW11_2 {
 		Statement stmt = null;
 
 		try {
-			con = DriverManager.getConnection(url, "20165164", "gusgks12#$");
+			con = DriverManager.getConnection(url, "20165164", "123123");
 			stmt = con.createStatement();
 			ResultSet rs = stmt.executeQuery(query);
 

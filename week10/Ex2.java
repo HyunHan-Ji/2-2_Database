@@ -12,7 +12,7 @@ public class Ex2 {
 		PreparedStatement pstmt = null;
 
 		try {
-			con = DriverManager.getConnection(url, "20165164", "gusgks12#$");
+			con = DriverManager.getConnection(url, "20165164", "123123");
 			pstmt = con.prepareStatement(query);
 			pstmt.setInt(1, 4);
 			ResultSet rs = pstmt.executeQuery();

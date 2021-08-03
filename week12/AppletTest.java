@@ -15,7 +15,7 @@ public class AppletTest extends Applet implements ActionListener {
 
 	private String url = "jdbc:inetdae7://210.115.229.77:2433";
 	private String user = "20165164";
-	private String pass = "gusgks12#$";
+	private String pass = "123123";
 
 	public void init() {
 		try {
